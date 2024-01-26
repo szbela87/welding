@@ -50,8 +50,7 @@ Create a `labels` directory and copy the `.txt` files from `images` to in:
 cp images/*.txt labels/.
 ```
 
-Copy the `yolov5_files/autosplit_train.txt`, `yolov5_files/autosplit_val.txt` and `yolov5_files/autosplit_text.txt` files
- to the `yolov5/data` directory.
+Copy the `yolov5_files/autosplit_*.txt` files to the `yolov5/data` directory.
 
 Copy the `yolov5_files/welding_data.yaml` file to the `yolov5` directory.
 
@@ -61,6 +60,32 @@ Example training:
 -----------------
 ```
 python train.py --cos-lr --img 640 --batch 32 --epochs 200 --data welding_data.yaml --weights yolov5n.pt --project defects --name model_5n_dec4 --cache --freeze 10 
+```
+
+## YOLOv7
+Copy the data directory from `yolov5` to `yolov7`:
+```
+cp -avr yolov5/data/images yolov7/data/images
+cp yolov5/data/autosplit*.txt yolov7/data/.
+```
+Copy the `yolov7_files/split_datasplit.py` function to `yolov7/data` and call it by :
+```
+python split_dataset.py --folder images --dest images_welding
+```
+
+Copy the `yolov7_files/welding_data_v7.yaml` file to the `yolov7/data` directory.
+Copy the `.yaml` configuration files from the `yolov7_files` directory to the `yolov7/cfg/training` directory.
+Copy the `yolov7/utils/loss.py` file to `yolov7/utils/loss.py`.
+
+Download from [here](https://github.com/pHidayatullah/yolov7/tree/main) 
+the `yolov7*_training.pt` files and copy them to the `yolov7` directory.
+
+Copy the `yolov7_files/train_aux.py` file and copy to `yolov7` directory. There has been added a `--freeze` argument to the parser.
+
+Example training:
+-----------------
+```
+python train.py --epochs 50 --workers 8 --device 0 --batch-size 4 --data data/welding_data_v7.yaml --img 640 --cfg cfg/training/yolov7_welding.yaml --weights 'yolov7_training.pt' --name yolov7-w1 --hyp data/hyp.scratch.custom.yaml --project defects --freeze 50
 ```
 
 
