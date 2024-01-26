@@ -11,13 +11,13 @@ importance of model selection. It lays the groundwork for future exploration in 
 varied welding scenarios, potentially contributing to defect detection practices in manufacturing
 industries. The dataset and the code repository links are also provided to support our findings.
 
-![image](images/process.png)
-
 <p align="center" width="100%">
-    <img width="33%" src="images/process.png">
+    <img width="80%" src="images/process.png">
 </p>
 
-![image](images/example.png)
+<p align="center" width="100%">
+    <img width="80%" src="images/example.png">
+</p>
 
 # Environment installations
 
