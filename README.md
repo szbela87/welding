@@ -150,4 +150,8 @@ Example two-phase training for YOLOv5 nano modell.
 ./run_evaluating_yolov5n_p5.sh
 ```
 
+| Model             | Files             |
+|-------------------|-------------------|
+| Model             | Files             |
+
 All the best finetuned models are available at here.
