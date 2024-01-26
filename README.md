@@ -176,4 +176,4 @@ The investigated models and the corresponding filename endings in the `scripts` 
 
 
 The best finetuned **YOLOv7-d6 P6** and **YOLOv7x P5** models are available [here](https://drive.google.com/drive/folders/1LcIzjeB0gurHA7OGhjajesNJnojtb4EG?usp=sharing).
-
+These are mentioned in the preprint as the best models.
