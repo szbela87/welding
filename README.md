@@ -135,15 +135,15 @@ Example training for YOLOv5 nano modell.
 
 1. Freezing the backbone and train for 200 epochs:
 ```
-./run_training
+./run_training_yolov5n_p5.sh
 ```
 2. Unfreezeing the backbone and train for 200 epochs:
 ```
-./run_training_finetuning
+./run_finetuning_yolov5n_p5.sh
 ```
 3. Evaluating them on the test set:
 ```
-./run_evaluating
+./run_evaluating_yolov5n_p5.sh
 ```
 
 All the best finetuned models are available at here.
