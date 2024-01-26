@@ -119,6 +119,9 @@ Modify the second line if the file `/home/$user/.config/Ultralytics/settings.yam
 Copy the `yolov8_files/welding_data_v8.yaml` file to the `yolov8/data` directory.
 Copy the `yolov6_files/welding_data_v6.yaml` file to the `yolov6/data` directory.
 
+Copy the `yolov8_files/train.py` and `yolov8_files/eval.py` to the `yolov8` directory.
+(Also, copy the `yolov6_files/train.py` and `yolov6_files/eval.py` to the `yolov6` directory. These are the same files)
+
 Example training
 ----------------
 ```
