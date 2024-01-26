@@ -1,5 +1,16 @@
 # Welding Defect Detection with YOLO algorithms on a Limited Dataset: A Comparative Study
 
+Abstract
+--------
+This work focuses on detecting defects in welding seams using the most advanced YOLO
+algorithms and transfer learning. To this end, we prepared a small dataset of images using manual
+welding and compared the performance of the YOLO v5, v6, v7, and v8 methods after two-step
+training. Key findings reveal that YOLOv7 demonstrates superior performance, suggesting its
+potential as a valuable tool in automated welding quality control. Our research underscores the
+importance of model selection. It lays the groundwork for future exploration in larger datasets and
+varied welding scenarios, potentially contributing to defect detection practices in manufacturing
+industries. The dataset and the code repository links are also provided to support our findings.
+
 # Environment installations
 
 ```
