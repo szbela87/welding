@@ -1,10 +1,9 @@
-# Welding Defect Detection with YOLO algorithms on a Limited
-Dataset: A Comparative Study
-
-mkdir welding
-cd welding
+# Welding Defect Detection with YOLO algorithms on a Limited Dataset: A Comparative Study
 
 # Environment installations
+
+`mkdir welding
+cd welding`
 
 ## yolov5
 ### from the base environment
