@@ -7,6 +7,7 @@ mkdir welding
 cd welding
 ```
 
+For the installation [Anaconda](https://www.anaconda.com/download) is used on Ubuntu 22.04.
 ## YOLOv5
 In the base environment:
 ```
