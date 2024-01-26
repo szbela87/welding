@@ -89,5 +89,21 @@ Example training:
 python train.py --epochs 50 --workers 8 --device 0 --batch-size 4 --data data/welding_data_v7.yaml --img 640 --cfg cfg/training/yolov7_welding.yaml --weights 'yolov7_training.pt' --name yolov7-w1 --hyp data/hyp.scratch.custom.yaml --project defects --freeze 50
 ```
 
+## YOLOv6 and YOLOv8
+Copy the `data` directory from `yolov7` to `yolov8` (and to `yolov6`):
+```
+cp -avr yolov7/data yolov8/data
+```
 
- 
+Modify the second line if the file `/home/$user/.config/Ultralytics/settings.yaml` to `yolov8` and the erase `dataset` from the end of line.
+
+Copy the `yolov8_files/welding_data_v8.yaml` file to the `yolov8/data` directory.
+Copy the `yolov6_files/welding_data_v6.yaml` file to the `yolov6/data` directory.
+
+Example training
+----------------
+```
+from ultralytics import YOLO
+model = YOLO("yolov8n.pt")
+model.train(data="./data/welding_data_v8.yaml",batch=8,imgsz=640,device=0,epochs=100,name="detect/yolov8n_1")
+``` 
