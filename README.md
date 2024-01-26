@@ -13,6 +13,8 @@ industries. The dataset and the code repository links are also provided to suppo
 
 ![image](images/process.png)
 
+<div style="text-align:center"><img src="images/process.png" /></div>
+
 ![image](images/example.png)
 
 # Environment installations
@@ -131,7 +133,7 @@ Just copy them to the corresponding directory.
 Example
 -------
 
-Example training for YOLOv5 nano modell.
+Example two-phase training for YOLOv5 nano modell.
 
 1. Freezing the backbone and train for 200 epochs:
 ```
