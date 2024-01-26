@@ -52,11 +52,15 @@ cp images/*.txt labels/.
 Copy the `yolov5_files/autosplit_train.txt`, `yolov5_files/autosplit_val.txt` and `yolov5_files/autosplit_text.txt` files
  to the `yolov5/data` directory.
 
-Also copy the `yolov5_files/welding_data.yaml` file to the `yolov5` directory.
+Copy the `yolov5_files/welding_data.yaml` file to the `yolov5` directory.
+
+Copy the `yolov5_files/hyp*.yaml` files to `yolov5/data/hyps` directory.
 
 Example training:
 -----------------
 ```
 python train.py --cos-lr --img 640 --batch 32 --epochs 200 --data welding_data.yaml --weights yolov5n.pt --project defects --name model_5n_dec4 --cache --freeze 10 
 ```
+
+
  
