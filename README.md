@@ -2,32 +2,32 @@
 
 # Environment installations
 
-`mkdir welding
-cd welding`
+```mkdir welding
+cd welding```
 
 ## YOLOv5
 In the base environment:
-`conda create --name yolov5 python=3.8 -y
+```conda create --name yolov5 python=3.8 -y
 conda activate yolov5
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
-pip install -r requirements.txt`
+pip install -r requirements.txt```
 
 ## YOLOv7
 In the base environment:
-`conda create --name yolov7 python=3.8 -y
+```conda create --name yolov7 python=3.8 -y
 conda activate yolov7
 git clone https://github.com/WongKinYiu/yolov7.git
 cd yolov7
-pip install -r requirements.txt`
+pip install -r requirements.txt```
 
 ## YOLOv8
 In the base environment
-`conda create --name yolov8 python=3.8 -y
+```conda create --name yolov8 python=3.8 -y
 conda activate yolov8
 git clone https://github.com/ultralytics/ultralytics yolov8
 cd yolov8
-pip install -e .`
+pip install -e .```
 
 # Dataset preparations
 the full dataset is available at [here](https://drive.google.com/file/d/1GrHhiCdmRnXbXEyWrLGfGGD0eS3YwDUb/view?usp=sharing).
