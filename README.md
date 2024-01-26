@@ -75,8 +75,8 @@ Copy the `yolov5_files/welding_data.yaml` file to the `yolov5` directory.
 
 Copy the `yolov5_files/hyp*.yaml` files to `yolov5/data/hyps` directory.
 
-Example training:
------------------
+Example training
+----------------
 ```
 python train.py --cos-lr --img 640 --batch 32 --epochs 200 --data welding_data.yaml --weights yolov5n.pt --project defects --name model_5n_dec4 --cache --freeze 10 
 ```
@@ -102,8 +102,8 @@ the `yolov7*_training.pt` files and copy them to the `yolov7` directory.
 
 Copy the `yolov7_files/train_aux.py` file and copy to `yolov7` directory. There has been added a `--freeze` argument to the parser.
 
-Example training:
------------------
+Example training
+----------------
 ```
 python train.py --epochs 50 --workers 8 --device 0 --batch-size 4 --data data/welding_data_v7.yaml --img 640 --cfg cfg/training/yolov7_welding.yaml --weights 'yolov7_training.pt' --name yolov7-w1 --hyp data/hyp.scratch.custom.yaml --project defects --freeze 50
 ```
