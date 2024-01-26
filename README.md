@@ -152,24 +152,24 @@ Example two-phase training for YOLOv5 nano model.
 
 The models and the corresponding filename endings in the `scripts` directory can be seen in the following table.
 
-| Model             | Files               |
-|-------------------|---------------------|
-| YOLOv5n P5        | `*_yolov5n_p5.sh`   |
-| YOLOv5s P5        | `*_yolov5s_p5.sh`   |
-| YOLOv5m P5        | `*_yolov5m_p5.sh`   |
-| YOLOv5l P5        | `*_yolov5l_p5.sh`   |
-| YOLOv5x P5        | `*_yolov5x_p5.sh`   |
-|                                         |
-| YOLOv5n P6        | `*_yolov5n_p6.sh`   |
-| YOLOv5s P6        | `*_yolov5s_p6.sh`   |
-| YOLOv5m P6        | `*_yolov5m_p6.sh`   |
-| YOLOv5l P6        | `*_yolov5l_p6.sh`   |
-| YOLOv5x P6        | `*_yolov5x_p6.sh`   |
-|                                         |
-| YOLOv6n P5        | `*_yolov6n_p5.sh`   |
-| YOLOv6s P5        | `*_yolov6s_p5.sh`   |
-| YOLOv6m P5        | `*_yolov6m_p5.sh`   |
-| YOLOv6l P5        | `*_yolov6l_p5.sh`   |
+| Model             | Files               || Model             | Files               |
+|-------------------|---------------------||-------------------|---------------------|
+| YOLOv5n P5        | `*_yolov5n_p5.sh`   || YOLOv5n P5        | `*_yolov5n_p5.sh`   |
+| YOLOv5s P5        | `*_yolov5s_p5.sh`   || YOLOv5s P5        | `*_yolov5s_p5.sh`   |
+| YOLOv5m P5        | `*_yolov5m_p5.sh`   || YOLOv5m P5        | `*_yolov5m_p5.sh`   |
+| YOLOv5l P5        | `*_yolov5l_p5.sh`   || YOLOv5l P5        | `*_yolov5l_p5.sh`   |
+| YOLOv5x P5        | `*_yolov5x_p5.sh`   || YOLOv5x P5        | `*_yolov5x_p5.sh`   |
+|                                         ||                                         |
+| YOLOv5n P6        | `*_yolov5n_p6.sh`   || YOLOv5n P6        | `*_yolov5n_p6.sh`   |
+| YOLOv5s P6        | `*_yolov5s_p6.sh`   || YOLOv5s P6        | `*_yolov5s_p6.sh`   |
+| YOLOv5m P6        | `*_yolov5m_p6.sh`   || YOLOv5m P6        | `*_yolov5m_p6.sh`   |
+| YOLOv5l P6        | `*_yolov5l_p6.sh`   || YOLOv5l P6        | `*_yolov5l_p6.sh`   |
+| YOLOv5x P6        | `*_yolov5x_p6.sh`   || YOLOv5x P6        | `*_yolov5x_p6.sh`   |
+|                                         ||                                         |
+| YOLOv6n P5        | `*_yolov6n_p5.sh`   || YOLOv6n P5        | `*_yolov6n_p5.sh`   |
+| YOLOv6s P5        | `*_yolov6s_p5.sh`   || YOLOv6s P5        | `*_yolov6s_p5.sh`   |
+| YOLOv6m P5        | `*_yolov6m_p5.sh`   || YOLOv6m P5        | `*_yolov6m_p5.sh`   |
+| YOLOv6l P5        | `*_yolov6l_p5.sh`   || YOLOv6l P5        | `*_yolov6l_p5.sh`   |
 
 
 
