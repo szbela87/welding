@@ -17,12 +17,12 @@ industries. The dataset and the code repository links are also provided to suppo
 
 # Environment installations
 
+For the installation [Anaconda](https://www.anaconda.com/download) is used on Ubuntu 22.04.
+In command line:
 ```
 mkdir welding
 cd welding
 ```
-
-For the installation [Anaconda](https://www.anaconda.com/download) is used on Ubuntu 22.04.
 ## YOLOv5
 In the base environment:
 ```
@@ -122,3 +122,28 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt")
 model.train(data="./data/welding_data_v8.yaml",batch=8,imgsz=640,device=0,epochs=100,name="detect/yolov8n_1")
 ``` 
+
+# Training and evaluation
+
+The bash scripts for training and evaluation can be found in the script folder.
+Just copy them to the corresponding directory.
+
+Example
+-------
+
+Example training for YOLOv5 nano modell.
+
+1. Freezing the backbone and train for 200 epochs:
+```
+./run_training
+```
+2. Unfreezeing the backbone and train for 200 epochs:
+```
+./run_training_finetuning
+```
+3. Evaluating them on the test set:
+```
+./run_evaluating
+```
+
+All the best finetuned models are available at here.
