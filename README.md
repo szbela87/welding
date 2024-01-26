@@ -109,6 +109,8 @@ python train.py --epochs 50 --workers 8 --device 0 --batch-size 4 --data data/we
 ```
 
 ## YOLOv6 and YOLOv8
+We have used the [Ultralytics](https://github.com/ultralytics/ultralytics) implementation for both models.
+
 Copy the `data` directory from `yolov7` to `yolov8` (and to `yolov6`):
 ```
 cp -avr yolov7/data yolov8/data
