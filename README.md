@@ -40,7 +40,7 @@ pip install -e .
 # Dataset preparations
 The full dataset is available at [here](https://drive.google.com/file/d/1GrHhiCdmRnXbXEyWrLGfGGD0eS3YwDUb/view?usp=sharing).
 
-## yolov5
+## YOLOv5
 Download, unzip the `welding_images.zip` file from the link above
 which contains the images and the annotations and copy the `images` directory from it
 into `yolov5/data/` and replace the original `images` directory.
