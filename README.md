@@ -11,6 +11,10 @@ importance of model selection. It lays the groundwork for future exploration in 
 varied welding scenarios, potentially contributing to defect detection practices in manufacturing
 industries. The dataset and the code repository links are also provided to support our findings.
 
+![image](images/process.png)
+
+![image](images/example.png)
+
 # Environment installations
 
 ```
