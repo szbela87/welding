@@ -5,32 +5,32 @@
 `mkdir welding
 cd welding`
 
-## yolov5
-### from the base environment
-conda create --name yolov5 python=3.8 -y
+## YOLOv5
+In the base environment:
+`conda create --name yolov5 python=3.8 -y
 conda activate yolov5
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
-pip install -r requirements.txt
+pip install -r requirements.txt`
 
-## yolov7
-### from the base environment
-conda create --name yolov7 python=3.8 -y
+## YOLOv7
+In the base environment:
+`conda create --name yolov7 python=3.8 -y
 conda activate yolov7
 git clone https://github.com/WongKinYiu/yolov7.git
 cd yolov7
-pip install -r requirements.txt
+pip install -r requirements.txt`
 
-## yolov8
-### from the base environment
-conda create --name yolov8 python=3.8 -y
+## YOLOv8
+In the base environment
+`conda create --name yolov8 python=3.8 -y
 conda activate yolov8
 git clone https://github.com/ultralytics/ultralytics yolov8
 cd yolov8
-pip install -e .
+pip install -e .`
 
-# dataset preparations
-the full dataset is available at: 
+# Dataset preparations
+the full dataset is available at [here](https://drive.google.com/file/d/1GrHhiCdmRnXbXEyWrLGfGGD0eS3YwDUb/view?usp=sharing).
 
 ## yolov5
 Download, unzip the `welding_images.zip` file
