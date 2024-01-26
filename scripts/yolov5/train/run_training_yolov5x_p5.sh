@@ -12,9 +12,9 @@ do
         --batch 8  \
         --epochs 200  \
         --data welding_data.yaml  \
-        --weights yolov5s.pt  \
+        --weights yolov5x.pt  \
         --project training_yolov5_p5  \
-        --name yolov5s'_'$i  \
+        --name yolov5x'_'$i  \
         --cache  \
         --freeze 10  \
 	--seed $i  \

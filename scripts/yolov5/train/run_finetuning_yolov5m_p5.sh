@@ -11,12 +11,11 @@ do
         --img 640  \
         --batch 8  \
         --epochs 200  \
+	--seed $(($i+5))  \
         --data welding_data.yaml  \
-        --weights yolov5s.pt  \
-        --project training_yolov5_p5  \
-        --name yolov5s'_'$i  \
+        --weights training_yolov5_p5/yolov5m'_'$i/weights/best.pt  \
+        --project finetuning_yolov5_p5  \
+        --name yolov5m'_'$i  \
         --cache  \
-        --freeze 10  \
-	--seed $i  \
-        --hyp data/hyps/hyp.scratch-low.yaml
+        --hyp data/hyps/hyp.scratch-low-ft.yaml
 done
