@@ -38,24 +38,19 @@ pip install -e .
 ```
 
 # Dataset preparations
-the full dataset is available at [here](https://drive.google.com/file/d/1GrHhiCdmRnXbXEyWrLGfGGD0eS3YwDUb/view?usp=sharing).
+The full dataset is available at [here](https://drive.google.com/file/d/1GrHhiCdmRnXbXEyWrLGfGGD0eS3YwDUb/view?usp=sharing).
 
 ## yolov5
-Download, unzip the `welding_images.zip` file
+Download, unzip the `welding_images.zip` file from the link above
 which contains the images and the annotations and copy the `images` directory from it
 into `yolov5/data/` and replace the original `images` directory.
 Create a `labels` directory and copy the `.txt` files from `images` to in:
+```
 cp images/*.txt labels/.
+```
 
-Also download the `autosplit_train.txt`, `autosplit_val.txt` and `autosplit_text.txt` files
-from the google drive link above. Copy them to the `yolov5/data` directory.
+Copy the `yolov5_files/autosplit_train.txt`, `yolov5_files/autosplit_val.txt` and `yolov5_files/autosplit_text.txt` files
+ to the `yolov5/data` directory.
 
-/*
-These are got from the following commands and they will be place in the `data` directory:
-cd yolov5
-from utils.dataloaders import autosplit
-autosplit(path="data/images",weights=(0.7,0.2,0.1))
-*/
-
-Download the welding_data_v5.yaml file from the Google Drive link and copy to the `yolov5` directory.
+Also copy the `yolov5_files/welding_data_v5.yaml` file to the `yolov5` directory.
  
