@@ -154,9 +154,9 @@ The models and the corresponding filename endings in the `scripts` directory can
 
 | Model             | Files               | Model             | Files               |
 |-------------------|---------------------|-------------------|---------------------|
-| YOLOv5n P5        | `*_yolov5n_p5.sh`   | YOLOv5n P5        | `*_yolov5n_p5.sh`   |
-| YOLOv5s P5        | `*_yolov5s_p5.sh`   | YOLOv5s P5        | `*_yolov5s_p5.sh`   |
-| YOLOv5m P5        | `*_yolov5m_p5.sh`   | YOLOv5m P5        | `*_yolov5m_p5.sh`   |
+| YOLOv5n P5        | `*_yolov5n_p5.sh`   | YOLOv7 P5         | `*_yolov7_p5.sh`    |
+| YOLOv5s P5        | `*_yolov5s_p5.sh`   | YOLOv7x P5        | `*_yolov7x_p5.sh`   |
+| YOLOv5m P5        | `*_yolov5m_p5.sh`   |                                         |
 | YOLOv5l P5        | `*_yolov5l_p5.sh`   | YOLOv5l P5        | `*_yolov5l_p5.sh`   |
 | YOLOv5x P5        | `*_yolov5x_p5.sh`   | YOLOv5x P5        | `*_yolov5x_p5.sh`   |
 |                                         |                                         |
