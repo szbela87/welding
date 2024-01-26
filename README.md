@@ -130,12 +130,12 @@ model.train(data="./data/welding_data_v8.yaml",batch=8,imgsz=640,device=0,epochs
 # Training and evaluation
 
 The bash scripts for training and evaluation can be found in the script folder.
-Just copy them to the corresponding directory.
+Just copy them to the corresponding `yolovx` directory.
 
 Example
 -------
 
-Example two-phase training for YOLOv5 nano modell.
+Example two-phase training for YOLOv5 nano model.
 
 1. Freezing the backbone and train for 200 epochs:
 ```
@@ -155,16 +155,22 @@ The models and the corresponding filename endings in the `scripts` directory can
 | Model             | Files               |
 |-------------------|---------------------|
 | YOLOv5n P5        | `*_yolov5n_p5.sh`   |
-| YOLOv5s P5        | `*_yolov5n_p5.sh`   |
-| YOLOv5m P5        | `*_yolov5n_p5.sh`   |
-| YOLOv5l P5        | `*_yolov5n_p5.sh`   |
-| YOLOv5x P5        | `*_yolov5n_p5.sh`   |
+| YOLOv5s P5        | `*_yolov5s_p5.sh`   |
+| YOLOv5m P5        | `*_yolov5m_p5.sh`   |
+| YOLOv5l P5        | `*_yolov5l_p5.sh`   |
+| YOLOv5x P5        | `*_yolov5x_p5.sh`   |
 |                                         |
 | YOLOv5n P6        | `*_yolov5n_p6.sh`   |
-| YOLOv5s P6        | `*_yolov5n_p6.sh`   |
-| YOLOv5m P6        | `*_yolov5n_p6.sh`   |
-| YOLOv5l P6        | `*_yolov5n_p6.sh`   |
-| YOLOv5x P6        | `*_yolov5n_p6.sh`   |
+| YOLOv5s P6        | `*_yolov5s_p6.sh`   |
+| YOLOv5m P6        | `*_yolov5m_p6.sh`   |
+| YOLOv5l P6        | `*_yolov5l_p6.sh`   |
+| YOLOv5x P6        | `*_yolov5x_p6.sh`   |
+|                                         |
+| YOLOv6n P5        | `*_yolov6n_p5.sh`   |
+| YOLOv6s P5        | `*_yolov6s_p5.sh`   |
+| YOLOv6m P5        | `*_yolov6m_p5.sh`   |
+| YOLOv6l P5        | `*_yolov6l_p5.sh`   |
+
 
 
 All the best finetuned models are available at here.
