@@ -150,8 +150,16 @@ Example two-phase training for YOLOv5 nano modell.
 ./run_evaluating_yolov5n_p5.sh
 ```
 
+The models and the corresponding filename endings in the `scripts` directory can be seen in the following table.
+
 | Model             | Files             |
 |-------------------|-------------------|
 | Model             | Files             |
+| Model             | Files             |
+| Model             | Files             |
+| Model             | Files             |
+|-------------------|-------------------|
+| YOLOv5                                |
+|-------------------|-------------------|
 
 All the best finetuned models are available at here.
