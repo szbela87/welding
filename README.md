@@ -162,14 +162,14 @@ The investigated models and the corresponding filename endings in the `scripts` 
 |                   |                     | YOLOv7-d6 P6      | `*_yolov7x_p5.sh`   |
 | YOLOv5n P6        | `*_yolov5n_p6.sh`   | YOLOv7-e6e P6     | `*_yolov7e6e_p6.sh` |
 | YOLOv5s P6        | `*_yolov5s_p6.sh`   |                   |                     |
-| YOLOv5m P6        | `*_yolov5m_p6.sh`   | YOLOv5m P6        | `*_yolov5m_p6.sh`   |
-| YOLOv5l P6        | `*_yolov5l_p6.sh`   | YOLOv5l P6        | `*_yolov5l_p6.sh`   |
-| YOLOv5x P6        | `*_yolov5x_p6.sh`   | YOLOv5x P6        | `*_yolov5x_p6.sh`   |
-|                   |                     |                   |                     |
-| YOLOv6n P5        | `*_yolov6n_p5.sh`   | YOLOv6n P5        | `*_yolov6n_p5.sh`   |
-| YOLOv6s P5        | `*_yolov6s_p5.sh`   | YOLOv6s P5        | `*_yolov6s_p5.sh`   |
-| YOLOv6m P5        | `*_yolov6m_p5.sh`   | YOLOv6m P5        | `*_yolov6m_p5.sh`   |
-| YOLOv6l P5        | `*_yolov6l_p5.sh`   | YOLOv6l P5        | `*_yolov6l_p5.sh`   |
+| YOLOv5m P6        | `*_yolov5m_p6.sh`   | YOLOv8n P5        | `*_yolov8n_p5.sh`   |
+| YOLOv5l P6        | `*_yolov5l_p6.sh`   | YOLOv8s P5        | `*_yolov8s_p5.sh`   |
+| YOLOv5x P6        | `*_yolov5x_p6.sh`   | YOLOv8m P5        | `*_yolov8m_p5.sh`   |
+|                   |                     | YOLOv8l P5        | `*_yolov8l_p5.sh`   |
+| YOLOv6n P5        | `*_yolov6n_p5.sh`   | YOLOv8x P5        | `*_yolov8x_p5.sh`   |
+| YOLOv6s P5        | `*_yolov6s_p5.sh`   |                   |                     |
+| YOLOv6m P5        | `*_yolov6m_p5.sh`   |                   |                     |
+| YOLOv6l P5        | `*_yolov6l_p5.sh`   |                   |                     |
 
 
 
