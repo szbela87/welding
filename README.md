@@ -19,7 +19,7 @@ industries. The dataset and the code repository links are also provided to suppo
     <img width="80%" src="images/example.png">
 </p>
 
-# Environment installations
+# Installation of the environments
 
 For the installation [Anaconda](https://www.anaconda.com/download) is used on Ubuntu 22.04.
 In command line:
