@@ -13,7 +13,9 @@ industries. The dataset and the code repository links are also provided to suppo
 
 ![image](images/process.png)
 
-<div style="text-align:center"><img src="images/process.png" /></div>
+<p align="center" width="100%">
+    <img width="33%" src="images/process.png">
+</p>
 
 ![image](images/example.png)
 
