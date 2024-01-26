@@ -74,8 +74,9 @@ python split_dataset.py --folder images --dest images_welding
 ```
 
 Copy the `yolov7_files/welding_data_v7.yaml` file to the `yolov7/data` directory.
-Copy the `.yaml` configuration files from the `yolov7_files` directory to the `yolov7/cfg/training` directory.
+Copy the `yolov7.yaml` and `yolov7*.yaml` configuration files from the `yolov7_files` directory to the `yolov7/cfg/training` directory.
 Copy the `yolov7/utils/loss.py` file to `yolov7/utils/loss.py`.
+Copy the `hyp*.yaml` ciles to `yolov7/data`.
 
 Download from [here](https://github.com/pHidayatullah/yolov7/tree/main) 
 the `yolov7*_training.pt` files and copy them to the `yolov7` directory.
