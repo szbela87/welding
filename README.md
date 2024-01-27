@@ -150,12 +150,13 @@ Example two-phase training for YOLOv5 nano model.
 ```
 ./run_finetuning_yolov5n_p5.sh
 ```
-3. Evaluating them on the test set:
+3. Evaluating the fine-tuned models on the test set:
 ```
 ./run_evaluating_yolov5n_p5.sh
 ```
 
 The investigated models and the corresponding filename endings in the `scripts` directory can be seen in the following table.
+The scripts are grouped into directories according to the model families, and within that, according to whether we used them for training (`train`) or evaluation (`eval`).
 
 | Model             | Files               | Model             | Files               |
 |-------------------|---------------------|-------------------|---------------------|
