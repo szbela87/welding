@@ -21,8 +21,8 @@
 </details>
 
 <!-- Abstract -->
-Abstract
---------
+# Abstract
+
 This work focuses on detecting defects in welding seams using the most advanced YOLO
 algorithms and transfer learning. To this end, we prepared a small dataset of images using manual
 welding and compared the performance of the YOLO v5, v6, v7, and v8 methods after two-step
@@ -41,7 +41,7 @@ industries. The dataset and the code repository links are also provided to suppo
 </p>
 
 
-<!-- Installation of the environments -->
+<!-- INSTALL -->
 # Installation of the environments
 
 
