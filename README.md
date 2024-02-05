@@ -40,6 +40,7 @@ industries. The dataset and the code repository links are also provided to suppo
     <img width="80%" src="images/example.png">
 </p>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- INSTALL -->
 # Installation of the environments
@@ -81,6 +82,9 @@ cd yolov8
 pip install -e .
 ```
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Dataset preparations -->
 # Dataset preparations
 The full dataset is available at [here](https://drive.google.com/file/d/1GrHhiCdmRnXbXEyWrLGfGGD0eS3YwDUb/view?usp=sharing).
 
@@ -156,6 +160,9 @@ model = YOLO("yolov8n.pt")
 model.train(data="./data/welding_data_v8.yaml",batch=8,imgsz=640,device=0,epochs=100,name="detect/yolov8n_1")
 ``` 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Training and evaluation -->
 # Training and evaluation
 
 The bash scripts for training and evaluation can be found in the script folder.
@@ -201,7 +208,12 @@ The scripts are grouped into directories according to the model families, and wi
 | YOLOv6m P5        | `*_yolov6m_p5.sh`   |                   |                     |
 | YOLOv6l P5        | `*_yolov6l_p5.sh`   |                   |                     |
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Best models -->
 # Best models
 
 The best finetuned **YOLOv7-d6 P6** and **YOLOv7x P5** models are available [here](https://drive.google.com/drive/folders/1LcIzjeB0gurHA7OGhjajesNJnojtb4EG?usp=sharing).
 These are mentioned in the preprint as the best models in the dataset.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
