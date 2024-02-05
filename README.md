@@ -1,5 +1,25 @@
 # Welding Defect Detection with YOLO algorithms on a Limited Dataset: A Comparative Study
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#abstract">Abstract</a>
+    </li>
+    <li>
+      <a href="#install">Installation of the environments</a>
+    </li>
+    <li>
+      <a href="#preparations">Dataset preparations</a>
+    </li>
+    <li>
+      <a href="#training">Training and evaluation</a>
+    </li>
+    <li><a href="#bestmodels">Best models</a></li>
+  </ol>
+</details>
+
 Abstract
 --------
 This work focuses on detecting defects in welding seams using the most advanced YOLO
@@ -18,6 +38,8 @@ industries. The dataset and the code repository links are also provided to suppo
 <p align="center" width="100%">
     <img width="80%" src="images/example.png">
 </p>
+
+
 
 # Installation of the environments
 
@@ -177,6 +199,7 @@ The scripts are grouped into directories according to the model families, and wi
 | YOLOv6m P5        | `*_yolov6m_p5.sh`   |                   |                     |
 | YOLOv6l P5        | `*_yolov6l_p5.sh`   |                   |                     |
 
+# Best models
 
 The best finetuned **YOLOv7-d6 P6** and **YOLOv7x P5** models are available [here](https://drive.google.com/drive/folders/1LcIzjeB0gurHA7OGhjajesNJnojtb4EG?usp=sharing).
 These are mentioned in the preprint as the best models in the dataset.
