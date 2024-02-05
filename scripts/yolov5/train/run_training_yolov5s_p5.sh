@@ -17,6 +17,6 @@ do
         --name yolov5s'_'$i  \
         --cache  \
         --freeze 10  \
-	--seed $i  \
+        --seed $i  \
         --hyp data/hyps/hyp.scratch-low.yaml
 done
