@@ -8,15 +8,15 @@
       <a href="#abstract">Abstract</a>
     </li>
     <li>
-      <a href="#install">Installation of the environments</a>
+      <a href="#installation-of-the-environments">Installation of the environments</a>
     </li>
     <li>
-      <a href="#preparations">Dataset preparations</a>
+      <a href="#dataset-preparations">Dataset preparations</a>
     </li>
     <li>
-      <a href="#training">Training and evaluation</a>
+      <a href="#training-and-evaluation">Training and evaluation</a>
     </li>
-    <li><a href="#bestmodels">Best models</a></li>
+    <li><a href="#best-models">Best models</a></li>
   </ol>
 </details>
 
