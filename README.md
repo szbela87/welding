@@ -1,5 +1,8 @@
 # Welding Defect Detection with YOLO algorithms on a Limited Dataset: A Comparative Study
 
+This repository contains the code for the paper:
+- [Welding defect detection with image processing on a custom small dataset: A comparative study](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cim2.70005)
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -223,3 +226,24 @@ The best finetuned **YOLOv7-d6 P6** and **YOLOv7x P5** models are available [her
 These are mentioned in the preprint as the best models in the dataset.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+# Citations
+If you wish to cite our work, its bibliographic details are provided below in BibTeX format.
+```
+@article{https://doi.org/10.1049/cim2.70005,
+author = {Szőlősi, József and Szekeres, Béla J. and Magyar, Péter and Adrián, Bán and Farkas, Gábor and Andó, Mátyás},
+title = {Welding defect detection with image processing on a custom small dataset: A comparative study},
+journal = {IET Collaborative Intelligent Manufacturing},
+volume = {6},
+number = {4},
+pages = {e70005},
+keywords = {data analysis, decision making, intelligent manufacturing systems, learning (artificial intelligence), manufacturing systems, neural nets},
+doi = {https://doi.org/10.1049/cim2.70005},
+url = {https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/cim2.70005},
+eprint = {https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cim2.70005},
+abstract = {Abstract This work focuses on detecting defects in welding seams using the most advanced You Only Look Once (YOLO) algorithms and transfer learning. To this end, the authors prepared a small dataset of images using manual welding and compared the performance of the YOLO v5, v6, v7, and v8 methods after two-step training. Key findings reveal that YOLOv7 demonstrates superior performance, suggesting its potential as a valuable tool in automated welding quality control. The authors’ research underscores the importance of model selection. It lays the groundwork for future exploration in larger datasets and varied welding scenarios, potentially contributing to defect detection practices in manufacturing industries. The dataset and the code repository links are also provided to support our findings.},
+year = {2024}
+}
+
+
+```
