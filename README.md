@@ -124,7 +124,7 @@ Copy the data directory from `yolov5` to `yolov7`:
 cp -avr yolov5/data/images yolov7/data/images
 cp yolov5/data/autosplit*.txt yolov7/data/.
 ```
-Copy the `yolov7_files/split_datasplit.py` function to `yolov7/data` and call it by :
+Copy the `yolov7_files/split_dataset.py` function to `yolov7/data` and call it by :
 ```
 python split_dataset.py --folder images --dest images_welding
 ```
